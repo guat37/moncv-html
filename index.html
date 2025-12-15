@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prénom Nom — CV</title>
+  <meta name="description" content="CV — Prénom Nom" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <div class="bg"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top">PN</a>
+    <nav class="nav">
+      <a href="#profil">Profil</a>
+      <a href="#experience">Expérience</a>
+      <a href="#competences">Compétences</a>
+      <a href="#formation">Formation</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="actions">
+      <a class="btn ghost" href="#contact">Me contacter</a>
+      <a class="btn" href="cv.pdf" target="_blank" rel="noopener">Télécharger PDF</a>
+    </div>
+  </header>
+
+  <main id="top" class="container">
+    <section class="hero reveal">
+      <div class="hero-card">
+        <div class="kicker">CV • Systèmes • Réseaux • IAM</div>
+        <h1>Prénom <span class="grad">Nom</span></h1>
+        <p class="subtitle">
+          Chef de projet technique • Systèmes & Réseaux • IAM/SSO • Santé
+        </p>
+
+        <div class="chips">
+          <span class="chip">Projets infra</span>
+          <span class="chip">Sécurité & IAM</span>
+          <span class="chip">O365 / Teams</span>
+          <span class="chip">Power Automate</span>
+        </div>
+
+        <div class="hero-cta">
+          <a class="btn" href="#experience">Voir l’expérience</a>
+          <a class="btn ghost" href="#competences">Compétences</a>
+        </div>
+      </div>
+
+      <aside class="hero-side reveal">
+        <div class="profile">
+          <div class="avatar">
+            <!-- Remplace par une image si tu veux -->
+            <!-- <img src="assets/avatar.jpg" alt="Photo" /> -->
+            <div class="avatar-fallback">PN</div>
+          </div>
+
+          <div class="profile-meta">
+            <div class="meta-row">
+              <span class="label">Localisation</span>
+              <span class="value">France</span>
+            </div>
+            <div class="meta-row">
+              <span class="label">Disponibilité</span>
+              <span class="value">—</span>
+            </div>
+            <div class="meta-row">
+              <span class="label">LinkedIn</span>
+              <span class="value"><a href="#" target="_blank" rel="noopener">/prenomnom</a></span>
+            </div>
+          </div>
+
+          <div class="card mini">
+            <div class="mini-title">Points forts</div>
+            <ul class="mini-list">
+              <li>Pilotage multi-établissements</li>
+              <li>Réseaux / sécurité / IAM</li>
+              <li>Automatisation & MCO</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="profil" class="section reveal">
+      <div class="section-head">
+        <h2>Profil</h2>
+        <p>Résumé court, orienté impact.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>À propos</h3>
+          <p>
+            Chef de projet depuis 2017, profil technique (systèmes/réseaux) avec expertise IAM.
+            Habitué aux environnements exigeants, conduite de projets, coordination, MCO/MCS.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Ce que je cherche</h3>
+          <p>
+            Projets infra / IAM / modernisation, avec une forte dimension qualité, sécurité
+            et industrialisation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section reveal">
+      <div class="section-head">
+        <h2>Expérience</h2>
+        <p>Chronologie claire, orientée résultats.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="t-item card">
+          <div class="t-top">
+            <div>
+              <h3>Chef de projet technique — DSIE</h3>
+              <div class="muted">2017 — Aujourd’hui • Secteur santé</div>
+            </div>
+            <span class="pill">Infra / Réseaux</span>
+          </div>
+          <ul>
+            <li>Pilotage de projets réseau / sécurité sur plusieurs établissements.</li>
+            <li>Coordination équipes métier, prestataires, MOE/MOA.</li>
+            <li>Standardisation, documentation, amélioration continue.</li>
+          </ul>
+        </article>
+
+        <article class="t-item card">
+          <div class="t-top">
+            <div>
+              <h3>Ingénieur production — Systèmes & Réseaux</h3>
+              <div class="muted">Avant 2017</div>
+            </div>
+            <span class="pill ghost">MCO / Exploitation</span>
+          </div>
+          <ul>
+            <li>Exploitation, supervision, gestion des incidents & changements.</li>
+            <li>Montée en compétence sécurité / IAM.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="competences" class="section reveal">
+      <div class="section-head">
+        <h2>Compétences</h2>
+        <p>Lisible, moderne, sans “tableau Excel”.</p>
+      </div>
+
+      <div class="grid three">
+        <div class="card">
+          <h3>Tech</h3>
+          <div class="bars">
+            <div class="bar"><span>Réseaux</span><i style="--v:92%"></i></div>
+            <div class="bar"><span>Systèmes</span><i style="--v:88%"></i></div>
+            <div class="bar"><span>IAM / SSO</span><i style="--v:85%"></i></div>
+            <div class="bar"><span>Reverse proxy / TLS</span><i style="--v:80%"></i></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Outils</h3>
+          <div class="tags">
+            <span class="tag">O365 / Teams</span>
+            <span class="tag">Power Automate</span>
+            <span class="tag">Grafana / InfluxDB</span>
+            <span class="tag">Docker / LXC</span>
+            <span class="tag">Nginx</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Soft skills</h3>
+          <ul class="check">
+            <li>Pilotage & coordination</li>
+            <li>Communication claire</li>
+            <li>Rigueur & sécurité</li>
+            <li>Orienté “solution”</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="formation" class="section reveal">
+      <div class="section-head">
+        <h2>Formation</h2>
+        <p>+ certifications si besoin.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>Diplôme</h3>
+          <p class="muted">École / Université — Année</p>
+          <p>Spécialité, option, mention…</p>
+        </div>
+        <div class="card">
+          <h3>Certifications</h3>
+          <div class="tags">
+            <span class="tag">ITIL</span>
+            <span class="tag">Sécurité</span>
+            <span class="tag">Réseaux</span>
+            <span class="tag">Cloud (option)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Simple et efficace.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>Me joindre</h3>
+          <div class="contact">
+            <a class="contact-row" href="mailto:prenom.nom@email.tld">
+              <span class="c-label">Email</span><span class="c-value">prenom.nom@email.tld</span>
+            </a>
+            <a class="contact-row" href="#" target="_blank" rel="noopener">
+              <span class="c-label">LinkedIn</span><span class="c-value">linkedin.com/in/…</span>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Pitch</h3>
+          <p>
+            Une phrase de conclusion + ce que tu apportes + ton terrain de jeu (santé, multi-sites, IAM).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="y"></span> Prénom Nom</span>
+      <span class="muted">Construit sur GitHub Pages</span>
+    </footer>
+  </main>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
